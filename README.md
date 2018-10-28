@@ -63,7 +63,7 @@ En la sección *Credentials* seleccionamos `Add > Jenkins`.
 
 <p align="center"><img src="https://raw.githubusercontent.com/coneking/jenkins_kubernetes/develop/images/jenkins-credential.png" width="600" /></p> <br>
 
-Se nos abrirá una ventan con las siguientes opciones. <br>
+Se nos abrirá una ventan con las siguientes opciones que completaremos como se sigue.<br>
 
 - **Domain:** Global credentials (unrestricted).
 - **Kind:** Certificate.
@@ -90,4 +90,5 @@ Finalmente nuestra configuración se debe ver de la siguiente manera.
 
 <br>
 
-Seleccionamos Guardar y listo, Jenkins está integrado con Kubernetes para realizar despliegues!!!
+Seleccionamos `Guardar` y listo!!!<br>
+**JENKINS ESTÁ INTEGRADO CON KUBERNETES PARA REALIZAR DESPLIEGUES!!!**
