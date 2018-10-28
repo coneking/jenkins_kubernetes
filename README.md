@@ -84,11 +84,10 @@ Seleccionamos `Upload Certificate...` y cargamos nuestro archivo cert.pfx creado
 <br>
 
 Ahora que nuestra crendencial del cluster de kubernetes está cargada a Jenkins, la podemos usar para la integración.<br>
-Finalmente nuestra configuración se debe ver de la siguiente manera.
+Finalmente nuestra configuración se debe ver de la siguiente manera. Seleccionamos `Guardar`.<br>
 
 <p align="center"><img src="https://raw.githubusercontent.com/coneking/jenkins_kubernetes/develop/images/config-kubernetes.png" width="1000" /></p>
 
 <br>
 
-Seleccionamos `Guardar` y listo!!!<br>
-**JENKINS ESTÁ INTEGRADO CON KUBERNETES PARA REALIZAR DESPLIEGUES!!!**
+**LISTO, JENKINS ESTÁ INTEGRADO CON KUBERNETES PARA REALIZAR DESPLIEGUES!!!**
