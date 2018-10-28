@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/coneking/Jenkins_Kubernetes/develop/images/logo.png" width="300" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/coneking/jenkins_kubernetes/develop/images/logo.png" width="300" /></p>
 
 # Integración Jenkins Kubernetes
 
@@ -59,7 +59,11 @@ Ya que actualmente nuestro cluster no están en la misma red de la empresa, debe
 
 ## Agregando Certificado
 
-En la sección *Credentials* seleccionamos `Add > Jenkins`  se nos abrirá una ventan con las siguientes opciones. <br>
+En la sección *Credentials* seleccionamos `Add > Jenkins`.
+
+<p align="center"><img src="https://raw.githubusercontent.com/coneking/jenkins_kubernetes/develop/images/jenkins-credential.png" width="600" /></p> <br>
+
+Se nos abrirá una ventan con las siguientes opciones. <br>
 
 - **Domain:** Global credentials (unrestricted).
 - **Kind:** Certificate.
@@ -74,13 +78,16 @@ Seleccionamos `Upload Certificate...` y cargamos nuestro archivo cert.pfx creado
 
 <br>
 
-<p align="center"><img src="https://raw.githubusercontent.com/coneking/Jenkins_Kubernetes/develop/images/jenkins-credential.png" width="300" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/coneking/jenkins_kubernetes/develop/images/jenkins-credential2.png" width="1000" /></p>
+
 
 <br>
 
 Ahora que nuestra crendencial del cluster de kubernetes está cargada a Jenkins, la podemos usar para la integración.<br>
 Finalmente nuestra configuración se debe ver de la siguiente manera.
 
-<p align="center"><img src="https://raw.githubusercontent.com/coneking/Jenkins_Kubernetes/develop/images/jenkins-credential2.png" width="300" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/coneking/jenkins_kubernetes/develop/images/config-kubernetes.png" width="1000" /></p>
 
 <br>
+
+Seleccionamos Guardar y listo, Jenkins está integrado con Kubernetes para realizar despliegues!!!
